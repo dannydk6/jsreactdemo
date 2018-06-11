@@ -1,0 +1,19 @@
+{
+  "name": "jsreactdemo",
+  "version": "1.0.0",
+  "description": "Learning Fullstack Javascript Development: MongoDB, Node.js, React.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dannydk6/jsreactdemo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dannydk6/jsreactdemo/issues"
+  },
+  "homepage": "https://github.com/dannydk6/jsreactdemo#readme"
+}
