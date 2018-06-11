@@ -1,7 +1,7 @@
 {
-  "name": "jsreactdemo",
+  "name": "fulljs",
   "version": "1.0.0",
-  "description": "Learning Fullstack Javascript Development: MongoDB, Node.js, React.js",
+  "description": "Learning Fullstack JavaScript Development: MongoDB, Node.js, React.js",
   "main": "index.js",
   "scripts": {
     "start": "nodemon --exec babel-node server.js --ignore public/",
@@ -9,30 +9,31 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dannydk6/jsreactdemo.git"
+    "url": "git+https://github.com/jscomplete/learn-fullstack-javascript.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/dannydk6/jsreactdemo/issues"
+    "url": "https://github.com/jscomplete/learn-fullstack-javascript/issues"
   },
-  "homepage": "https://github.com/dannydk6/jsreactdemo#readme",
+  "homepage": "https://github.com/jscomplete/learn-fullstack-javascript#readme",
   "dependencies": {
-    "express": "^4.16.3",
-    "mongodb": "^3.0.10",
-    "react": "^16.4.0",
-    "react-dom": "^16.4.0"
+    "ejs": "^2.5.2",
+    "express": "^4.14.0",
+    "mongodb": "^2.2.10",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-eslint": "^8.2.3",
-    "babel-loader": "^7.1.4",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-react": "^6.24.1",
-    "babel-preset-stage-2": "^6.24.1",
-    "eslint": "^4.19.1",
-    "eslint-plugin-react": "^7.9.1",
-    "nodemon": "^1.17.5",
-    "webpack": "^4.12.0"
+    "babel-cli": "^6.16.0",
+    "babel-eslint": "^7.0.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-2": "^6.17.0",
+    "eslint": "^3.7.1",
+    "eslint-plugin-react": "^6.4.0",
+    "nodemon": "^1.11.0",
+    "webpack": "^1.13.2"
   }
 }
