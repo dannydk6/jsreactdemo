@@ -1,5 +1,5 @@
 {
-  "name": "fulljs",
+  "name": "jsreactdemo",
   "version": "1.0.0",
   "description": "Learning Fullstack JavaScript Development: MongoDB, Node.js, React.js",
   "main": "index.js",
@@ -18,9 +18,12 @@
   },
   "homepage": "https://github.com/jscomplete/learn-fullstack-javascript#readme",
   "dependencies": {
+    "axios": "^0.18.0",
     "ejs": "^2.5.2",
     "express": "^4.14.0",
+    "json-loader": "^0.5.7",
     "mongodb": "^2.2.10",
+    "node-sass-middleware": "^0.11.0",
     "react": "^15.3.2",
     "react-dom": "^15.3.2"
   },
